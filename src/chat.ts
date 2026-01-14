@@ -11,7 +11,7 @@ import { Env, ChatMessage } from "./types";
 
 // Model ID for Workers AI model
 // https://developers.cloudflare.com/workers-ai/models/
-const MODEL_ID = "@cf/openai/gpt-oss-120b";
+const MODEL_ID = "@cf/meta/llama-4-scout-17b-16e-instruct";
 
 // Default system prompt
 const SYSTEM_PROMPT =
@@ -71,7 +71,7 @@ async function handleChatRequest(
             MODEL_ID,
             {
                 messages,
-                max_tokens: 3072,
+                max_tokens: 2048,
                 stream: true,
             },
             {
