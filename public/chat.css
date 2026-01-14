@@ -1,12 +1,12 @@
 :root {
     --primary-color: #f6821f;
     --primary-hover: #e67e22;
-    --light-bg: #f9fafb;
-    --border-color: #e5e7eb;
-    --text-color: #1f2937;
+    --light-bg: #24282b;
+    --border-color: #2d3037;
+    --text-color: #ffffff;
     --text-light: #6b7280;
-    --user-msg-bg: #fff2e6;
-    --assistant-msg-bg: #f3f4f6;
+    --user-msg-bg: #006efd;
+    --assistant-msg-bg: #a7a7a7;
 }
 
 * {
